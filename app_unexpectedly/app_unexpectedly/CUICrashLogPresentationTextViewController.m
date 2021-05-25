@@ -768,7 +768,7 @@ NSString * const CUICrashLogPresentationTextViewFontSizeDelta=@"ui.text.fontSize
                 
                 NSView * tTrick=tPopUpViewController.view;  // This is used to trigger the viewDidLoad method of the contentViewController.
 
-                
+                (void)tTrick;
                 
                 return YES;
             }

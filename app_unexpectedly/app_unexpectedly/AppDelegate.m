@@ -123,7 +123,8 @@ NSString * const CUIApplicationShowDebugMenuKey=@"ui.menu.debug.show";
     NSArray * tThemes=[tThemesManager allThemes];
     
     [tThemes enumerateObjectsWithOptions:NSEnumerationReverse  usingBlock:^(CUITheme * bTheme, NSUInteger bIndex, BOOL * bOutStop) {
-        
+
+        //FIXME: -Wundeclared-selector:
         NSMenuItem * tMenuItem=[[NSMenuItem alloc] initWithTitle:bTheme.name action:@selector(CUI_MENUACTION_switchTheme:) keyEquivalent:@""];
         
         tMenuItem.representedObject=bTheme.UUID;

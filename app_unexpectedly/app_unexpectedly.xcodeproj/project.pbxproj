@@ -257,11 +257,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A57966AE265DAEF400F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		A57966AF265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePaneGeneralViewController.xib; sourceTree = "<group>"; };
+		A57966B0265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePanePresentationTextViewController.xib; sourceTree = "<group>"; };
+		A57966B1265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePanePresentationOutlineViewController.xib; sourceTree = "<group>"; };
+		A57966B2265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePanePresentationViewController.xib; sourceTree = "<group>"; };
+		A57966B3265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePaneFontscolorsViewController.xib; sourceTree = "<group>"; };
+		A57966B4265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUISymbolsFilesLibraryViewController.xib; sourceTree = "<group>"; };
+		A57966B5265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePaneSymbolicationViewController.xib; sourceTree = "<group>"; };
+		A57966B6265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencePaneCrashreporterViewController.xib; sourceTree = "<group>"; };
+		A57966B7265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIPreferencesWindowController.xib; sourceTree = "<group>"; };
+		A57966B8265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICrashLogsSourceSmartEditorWindowController.xib; sourceTree = "<group>"; };
+		A57966B9265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICrashLogsSourcesViewController.xib; sourceTree = "<group>"; };
+		A57966BA265DAEF500F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICrashLogsListViewController.xib; sourceTree = "<group>"; };
+		A57966BB265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIInspectorGeneralViewController.xib; sourceTree = "<group>"; };
+		A57966BC265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIInspectorUserViewController.xib; sourceTree = "<group>"; };
+		A57966BD265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIInspectorExecutableViewController.xib; sourceTree = "<group>"; };
+		A57966BE265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIInspectorProcessesViewController.xib; sourceTree = "<group>"; };
+		A57966BF265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIExportAccessoryViewController.xib; sourceTree = "<group>"; };
+		A57966C0265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICrashLogPresentationTextViewController.xib; sourceTree = "<group>"; };
+		A57966C1265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICrashLogPresentationOutlineViewController.xib; sourceTree = "<group>"; };
+		A57966C2265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUICollectionViewRegisterItem.xib; sourceTree = "<group>"; };
+		A57966C3265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIBinaryImagesViewController.xib; sourceTree = "<group>"; };
+		A57966C4265DAEF600F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CUIMainWindowController.xib; sourceTree = "<group>"; };
+		A57966C5265DAEF700F1492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F4040A7424F5B9CE0072BF65 /* CUINavigationChevronView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUINavigationChevronView.h; sourceTree = "<group>"; };
 		F4040A7524F5B9CE0072BF65 /* CUINavigationChevronView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUINavigationChevronView.m; sourceTree = "<group>"; };
 		F4040A7724F5BC230072BF65 /* CUINavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUINavigationView.h; sourceTree = "<group>"; };
 		F4040A7824F5BC230072BF65 /* CUINavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUINavigationView.m; sourceTree = "<group>"; };
-		F4055C8225EEE37400DC6CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIMainWindowController.xib; sourceTree = "<group>"; };
 		F4055C8425EEE37600DC6CCA /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIMainWindowController.xib; sourceTree = "<group>"; };
 		F405A96B255015D800AD2F24 /* CUICXXDemangler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CUICXXDemangler.h; path = app_unexpectedly/Demangling/CUICXXDemangler.h; sourceTree = "<group>"; };
 		F405A96C255015D800AD2F24 /* CUICXXDemangler.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CUICXXDemangler.mm; path = app_unexpectedly/Demangling/CUICXXDemangler.mm; sourceTree = "<group>"; };
@@ -356,7 +379,6 @@
 		F42B57E024ABEF6E00F77ED5 /* CUICallsSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUICallsSelection.h; sourceTree = "<group>"; };
 		F42B57E124ABEF6E00F77ED5 /* CUICallsSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUICallsSelection.m; sourceTree = "<group>"; };
 		F42D0BC225514B2E0021A551 /* template.source */ = {isa = PBXFileReference; lastKnownFileType = text; path = template.source; sourceTree = "<group>"; };
-		F4301A6925EF0DE000ACDA3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePanePresentationViewController.xib; sourceTree = "<group>"; };
 		F4301A6B25EF0DE200ACDA3F /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePanePresentationViewController.xib; sourceTree = "<group>"; };
 		F4306D572577E168007E667F /* CUICrashLogThreadState+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CUICrashLogThreadState+UI.h"; sourceTree = "<group>"; };
 		F4306D582577E168007E667F /* CUICrashLogThreadState+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CUICrashLogThreadState+UI.m"; sourceTree = "<group>"; };
@@ -421,9 +443,7 @@
 		F45015CD25FABE02000C4B8D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/EXC_BAD_INSTRUCTION_SIGILL.html; sourceTree = "<group>"; };
 		F45015CF25FAD279000C4B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/EXC_CRASH_SIGQUIT.html; sourceTree = "<group>"; };
 		F45015D125FAD27B000C4B8D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/EXC_CRASH_SIGQUIT.html; sourceTree = "<group>"; };
-		F453AE4A25EE706F00B7BEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIExportAccessoryViewController.xib; sourceTree = "<group>"; };
 		F453AE4C25EE707000B7BEF0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIExportAccessoryViewController.xib; sourceTree = "<group>"; };
-		F453AE4E25EE70E800B7BEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICrashLogPresentationTextViewController.xib; sourceTree = "<group>"; };
 		F453AE5025EE70E900B7BEF0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICrashLogPresentationTextViewController.xib; sourceTree = "<group>"; };
 		F45442A724AF355700EE79E4 /* CUICaptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUICaptionView.h; sourceTree = "<group>"; };
 		F45442A824AF355700EE79E4 /* CUICaptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUICaptionView.m; sourceTree = "<group>"; };
@@ -441,17 +461,11 @@
 		F45A2D5525EC50960007D50E /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F45A2D5625EC50960007D50E /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Predicates.strings; sourceTree = "<group>"; };
 		F45A2D5725EC50960007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		F45A2D5E25EC5CA00007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencesWindowController.xib; sourceTree = "<group>"; };
 		F45A2D6025EC5CA30007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencesWindowController.xib; sourceTree = "<group>"; };
-		F45A2D6225EC5D130007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePaneFontscolorsViewController.xib; sourceTree = "<group>"; };
 		F45A2D6425EC5D140007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePaneFontscolorsViewController.xib; sourceTree = "<group>"; };
-		F45A2D6625EC5F850007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIAboutBoxWindowController.xib; sourceTree = "<group>"; };
 		F45A2D6825EC5F870007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIAboutBoxWindowController.xib; sourceTree = "<group>"; };
-		F45A2D6A25EC602B0007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIBinaryImagesViewController.xib; sourceTree = "<group>"; };
 		F45A2D6C25EC60310007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIBinaryImagesViewController.xib; sourceTree = "<group>"; };
-		F45A2D6E25EC60920007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICrashLogsSourcesViewController.xib; sourceTree = "<group>"; };
 		F45A2D7025EC60930007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICrashLogsSourcesViewController.xib; sourceTree = "<group>"; };
-		F45A2D7225EC60D90007D50E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICrashLogsListViewController.xib; sourceTree = "<group>"; };
 		F45A2D7425EC60DB0007D50E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICrashLogsListViewController.xib; sourceTree = "<group>"; };
 		F45B518A24AFA04000E97B87 /* CUICrashLogsSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUICrashLogsSelection.h; sourceTree = "<group>"; };
 		F45B518B24AFA04000E97B87 /* CUICrashLogsSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUICrashLogsSelection.m; sourceTree = "<group>"; };
@@ -481,19 +495,13 @@
 		F46BAF57250162C900991970 /* CUIPreferencesWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUIPreferencesWindow.h; sourceTree = "<group>"; };
 		F46BAF58250162C900991970 /* CUIPreferencesWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUIPreferencesWindow.m; sourceTree = "<group>"; };
 		F46D2A2724C33FA200652D50 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Predicates.strings; sourceTree = "<group>"; };
-		F46D779C25ED8D1800039663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIInspectorGeneralViewController.xib; sourceTree = "<group>"; };
 		F46D779E25ED8D1900039663 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIInspectorGeneralViewController.xib; sourceTree = "<group>"; };
-		F46D77A025ED8D3600039663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIInspectorUserViewController.xib; sourceTree = "<group>"; };
 		F46D77A225ED8D3900039663 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIInspectorUserViewController.xib; sourceTree = "<group>"; };
-		F46D77A425ED8D5700039663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIInspectorExecutableViewController.xib; sourceTree = "<group>"; };
 		F46D77A625ED8D5900039663 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIInspectorExecutableViewController.xib; sourceTree = "<group>"; };
-		F46D77A825ED8E3B00039663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIInspectorProcessesViewController.xib; sourceTree = "<group>"; };
 		F46D77AA25ED8E3E00039663 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIInspectorProcessesViewController.xib; sourceTree = "<group>"; };
-		F46D77AC25ED9EAE00039663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICollectionViewRegisterItem.xib; sourceTree = "<group>"; };
 		F46D77AE25ED9EAF00039663 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICollectionViewRegisterItem.xib; sourceTree = "<group>"; };
 		F472CC952550631A003F6338 /* CUISwiftDemangler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CUISwiftDemangler.h; path = app_unexpectedly/Demangling/CUISwiftDemangler.h; sourceTree = "<group>"; };
 		F472CC962550631A003F6338 /* CUISwiftDemangler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CUISwiftDemangler.m; path = app_unexpectedly/Demangling/CUISwiftDemangler.m; sourceTree = "<group>"; };
-		F4754D7225F5678700B0D48F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICrashLogPresentationOutlineViewController.xib; sourceTree = "<group>"; };
 		F4754D7425F5678A00B0D48F /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICrashLogPresentationOutlineViewController.xib; sourceTree = "<group>"; };
 		F476EEBC25686DEF00F40F87 /* CUIAboutBoxFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUIAboutBoxFooterView.h; sourceTree = "<group>"; };
 		F476EEBD25686DEF00F40F87 /* CUIAboutBoxFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUIAboutBoxFooterView.m; sourceTree = "<group>"; };
@@ -541,14 +549,11 @@
 		F48944202545836F00E3E360 /* CUISymbolsFilesLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUISymbolsFilesLibraryViewController.m; sourceTree = "<group>"; };
 		F48BAB3425D9D4140005F3E5 /* CUIThreadImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUIThreadImageCell.h; sourceTree = "<group>"; };
 		F48BAB3525D9D4140005F3E5 /* CUIThreadImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUIThreadImageCell.m; sourceTree = "<group>"; };
-		F48CF60024A969B5002AD214 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F49227C624A8D45000772411 /* CUIStackFrame+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CUIStackFrame+UI.h"; sourceTree = "<group>"; };
 		F49227C724A8D45000772411 /* CUIStackFrame+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CUIStackFrame+UI.m"; sourceTree = "<group>"; };
 		F49282C225696BF900D255D8 /* known_exceptions.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = known_exceptions.css; path = Help/known_exceptions.css; sourceTree = "<group>"; wrapsLines = 1; };
 		F493DB1B24F1CF2F001AA8C0 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F495AEBD25F029C2000D92E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePanePresentationTextViewController.xib; sourceTree = "<group>"; };
 		F495AEBF25F029CD000D92E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePanePresentationTextViewController.xib; sourceTree = "<group>"; };
-		F495AEC125F02F74000D92E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePanePresentationOutlineViewController.xib; sourceTree = "<group>"; };
 		F495AEC325F02F76000D92E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePanePresentationOutlineViewController.xib; sourceTree = "<group>"; };
 		F495AEC525F03141000D92E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/unknown_exception_type.html; sourceTree = "<group>"; };
 		F495AEC725F0314A000D92E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/unknown_exception_type.html; sourceTree = "<group>"; };
@@ -600,11 +605,8 @@
 		F4A0BEEE261BC39700BADEED /* CUIWatchBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CUIWatchBridge.h; path = clock/CUIWatchBridge.h; sourceTree = "<group>"; };
 		F4A0BEEF261BC39700BADEED /* CUIWatchScrew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CUIWatchScrew.m; path = clock/CUIWatchScrew.m; sourceTree = "<group>"; };
 		F4A0BEF0261BC39700BADEED /* CUIWatchJewel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CUIWatchJewel.h; path = clock/CUIWatchJewel.h; sourceTree = "<group>"; };
-		F4A3A6E025ED7F450018053E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUICrashLogsSourceSmartEditorWindowController.xib; sourceTree = "<group>"; };
 		F4A3A6E225ED7F460018053E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUICrashLogsSourceSmartEditorWindowController.xib; sourceTree = "<group>"; };
-		F4A3A6E425ED81260018053E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePaneGeneralViewController.xib; sourceTree = "<group>"; };
 		F4A3A6E625ED81290018053E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePaneGeneralViewController.xib; sourceTree = "<group>"; };
-		F4A3A6E825ED817E0018053E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePaneCrashreporterViewController.xib; sourceTree = "<group>"; };
 		F4A3A6EA25ED81800018053E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePaneCrashreporterViewController.xib; sourceTree = "<group>"; };
 		F4A3A6EC25ED82F10018053E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/EXC_BAD_ACCESS_SIGBUS.html; sourceTree = "<group>"; };
 		F4A3A6EE25ED82F20018053E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = fr; path = fr.lproj/EXC_BAD_ACCESS_SIGBUS.html; sourceTree = "<group>"; };
@@ -697,9 +699,7 @@
 		F4CE83DD2554B97300A8BD87 /* CUICenteredLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CUICenteredLabelViewController.xib; sourceTree = "<group>"; };
 		F4D5C77A2571AF900029B051 /* CUIRegisterLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUIRegisterLabel.h; sourceTree = "<group>"; };
 		F4D5C77B2571AF900029B051 /* CUIRegisterLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUIRegisterLabel.m; sourceTree = "<group>"; };
-		F4D7F15C25F04A620024E9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUISymbolsFilesLibraryViewController.xib; sourceTree = "<group>"; };
 		F4D7F15E25F04A630024E9A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUISymbolsFilesLibraryViewController.xib; sourceTree = "<group>"; };
-		F4D7F16025F04A9D0024E9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CUIPreferencePaneSymbolicationViewController.xib; sourceTree = "<group>"; };
 		F4D7F16225F04A9E0024E9A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/CUIPreferencePaneSymbolicationViewController.xib; sourceTree = "<group>"; };
 		F4E0BD23262078220048647C /* CUIAboutBoxWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUIAboutBoxWindow.h; sourceTree = "<group>"; };
 		F4E0BD24262078220048647C /* CUIAboutBoxWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUIAboutBoxWindow.m; sourceTree = "<group>"; };
@@ -1656,7 +1656,7 @@
 		F4CC56F724A79EDA00150EC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Acme, Inc";
 				TargetAttributes = {
 					F4CC56FE24A79EDA00150EC4 = {
@@ -1671,6 +1671,7 @@
 			knownRegions = (
 				en,
 				fr,
+				Base,
 			);
 			mainGroup = F4CC56F624A79EDA00150EC4;
 			productRefGroup = F4CC570024A79EDA00150EC4 /* Products */;
@@ -1974,8 +1975,8 @@
 		F4055C8325EEE37400DC6CCA /* CUIMainWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4055C8225EEE37400DC6CCA /* en */,
 				F4055C8425EEE37600DC6CCA /* fr */,
+				A57966C4265DAEF600F1492C /* Base */,
 			);
 			name = CUIMainWindowController.xib;
 			sourceTree = "<group>";
@@ -1993,8 +1994,8 @@
 		F4301A6A25EF0DE000ACDA3F /* CUIPreferencePanePresentationViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4301A6925EF0DE000ACDA3F /* en */,
 				F4301A6B25EF0DE200ACDA3F /* fr */,
+				A57966B2265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePanePresentationViewController.xib;
 			sourceTree = "<group>";
@@ -2032,8 +2033,8 @@
 		F453AE4B25EE706F00B7BEF0 /* CUIExportAccessoryViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F453AE4A25EE706F00B7BEF0 /* en */,
 				F453AE4C25EE707000B7BEF0 /* fr */,
+				A57966BF265DAEF600F1492C /* Base */,
 			);
 			name = CUIExportAccessoryViewController.xib;
 			sourceTree = "<group>";
@@ -2041,8 +2042,8 @@
 		F453AE4F25EE70E800B7BEF0 /* CUICrashLogPresentationTextViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F453AE4E25EE70E800B7BEF0 /* en */,
 				F453AE5025EE70E900B7BEF0 /* fr */,
+				A57966C0265DAEF600F1492C /* Base */,
 			);
 			name = CUICrashLogPresentationTextViewController.xib;
 			sourceTree = "<group>";
@@ -2050,8 +2051,8 @@
 		F45A2D5F25EC5CA00007D50E /* CUIPreferencesWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D5E25EC5CA00007D50E /* en */,
 				F45A2D6025EC5CA30007D50E /* fr */,
+				A57966B7265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencesWindowController.xib;
 			sourceTree = "<group>";
@@ -2059,8 +2060,8 @@
 		F45A2D6325EC5D130007D50E /* CUIPreferencePaneFontscolorsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D6225EC5D130007D50E /* en */,
 				F45A2D6425EC5D140007D50E /* fr */,
+				A57966B3265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePaneFontscolorsViewController.xib;
 			sourceTree = "<group>";
@@ -2068,8 +2069,8 @@
 		F45A2D6725EC5F850007D50E /* CUIAboutBoxWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D6625EC5F850007D50E /* en */,
 				F45A2D6825EC5F870007D50E /* fr */,
+				A57966AE265DAEF400F1492C /* Base */,
 			);
 			name = CUIAboutBoxWindowController.xib;
 			sourceTree = "<group>";
@@ -2077,8 +2078,8 @@
 		F45A2D6B25EC602B0007D50E /* CUIBinaryImagesViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D6A25EC602B0007D50E /* en */,
 				F45A2D6C25EC60310007D50E /* fr */,
+				A57966C3265DAEF600F1492C /* Base */,
 			);
 			name = CUIBinaryImagesViewController.xib;
 			sourceTree = "<group>";
@@ -2086,8 +2087,8 @@
 		F45A2D6F25EC60920007D50E /* CUICrashLogsSourcesViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D6E25EC60920007D50E /* en */,
 				F45A2D7025EC60930007D50E /* fr */,
+				A57966B9265DAEF500F1492C /* Base */,
 			);
 			name = CUICrashLogsSourcesViewController.xib;
 			sourceTree = "<group>";
@@ -2095,8 +2096,8 @@
 		F45A2D7325EC60D90007D50E /* CUICrashLogsListViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F45A2D7225EC60D90007D50E /* en */,
 				F45A2D7425EC60DB0007D50E /* fr */,
+				A57966BA265DAEF500F1492C /* Base */,
 			);
 			name = CUICrashLogsListViewController.xib;
 			sourceTree = "<group>";
@@ -2113,8 +2114,8 @@
 		F46D779D25ED8D1800039663 /* CUIInspectorGeneralViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F46D779C25ED8D1800039663 /* en */,
 				F46D779E25ED8D1900039663 /* fr */,
+				A57966BB265DAEF600F1492C /* Base */,
 			);
 			name = CUIInspectorGeneralViewController.xib;
 			sourceTree = "<group>";
@@ -2122,8 +2123,8 @@
 		F46D77A125ED8D3600039663 /* CUIInspectorUserViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F46D77A025ED8D3600039663 /* en */,
 				F46D77A225ED8D3900039663 /* fr */,
+				A57966BC265DAEF600F1492C /* Base */,
 			);
 			name = CUIInspectorUserViewController.xib;
 			sourceTree = "<group>";
@@ -2131,8 +2132,8 @@
 		F46D77A525ED8D5700039663 /* CUIInspectorExecutableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F46D77A425ED8D5700039663 /* en */,
 				F46D77A625ED8D5900039663 /* fr */,
+				A57966BD265DAEF600F1492C /* Base */,
 			);
 			name = CUIInspectorExecutableViewController.xib;
 			sourceTree = "<group>";
@@ -2140,8 +2141,8 @@
 		F46D77A925ED8E3B00039663 /* CUIInspectorProcessesViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F46D77A825ED8E3B00039663 /* en */,
 				F46D77AA25ED8E3E00039663 /* fr */,
+				A57966BE265DAEF600F1492C /* Base */,
 			);
 			name = CUIInspectorProcessesViewController.xib;
 			sourceTree = "<group>";
@@ -2149,8 +2150,8 @@
 		F46D77AD25ED9EAE00039663 /* CUICollectionViewRegisterItem.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F46D77AC25ED9EAE00039663 /* en */,
 				F46D77AE25ED9EAF00039663 /* fr */,
+				A57966C2265DAEF600F1492C /* Base */,
 			);
 			name = CUICollectionViewRegisterItem.xib;
 			sourceTree = "<group>";
@@ -2158,8 +2159,8 @@
 		F4754D7325F5678700B0D48F /* CUICrashLogPresentationOutlineViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4754D7225F5678700B0D48F /* en */,
 				F4754D7425F5678A00B0D48F /* fr */,
+				A57966C1265DAEF600F1492C /* Base */,
 			);
 			name = CUICrashLogPresentationOutlineViewController.xib;
 			sourceTree = "<group>";
@@ -2176,8 +2177,8 @@
 		F495AEBE25F029C2000D92E1 /* CUIPreferencePanePresentationTextViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F495AEBD25F029C2000D92E1 /* en */,
 				F495AEBF25F029CD000D92E1 /* fr */,
+				A57966B0265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePanePresentationTextViewController.xib;
 			sourceTree = "<group>";
@@ -2185,8 +2186,8 @@
 		F495AEC225F02F74000D92E1 /* CUIPreferencePanePresentationOutlineViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F495AEC125F02F74000D92E1 /* en */,
 				F495AEC325F02F76000D92E1 /* fr */,
+				A57966B1265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePanePresentationOutlineViewController.xib;
 			sourceTree = "<group>";
@@ -2253,8 +2254,8 @@
 		F4A3A6E125ED7F450018053E /* CUICrashLogsSourceSmartEditorWindowController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4A3A6E025ED7F450018053E /* en */,
 				F4A3A6E225ED7F460018053E /* fr */,
+				A57966B8265DAEF500F1492C /* Base */,
 			);
 			name = CUICrashLogsSourceSmartEditorWindowController.xib;
 			sourceTree = "<group>";
@@ -2262,8 +2263,8 @@
 		F4A3A6E525ED81260018053E /* CUIPreferencePaneGeneralViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4A3A6E425ED81260018053E /* en */,
 				F4A3A6E625ED81290018053E /* fr */,
+				A57966AF265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePaneGeneralViewController.xib;
 			sourceTree = "<group>";
@@ -2271,8 +2272,8 @@
 		F4A3A6E925ED817E0018053E /* CUIPreferencePaneCrashreporterViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4A3A6E825ED817E0018053E /* en */,
 				F4A3A6EA25ED81800018053E /* fr */,
+				A57966B6265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePaneCrashreporterViewController.xib;
 			sourceTree = "<group>";
@@ -2290,8 +2291,8 @@
 		F4CC570B24A79EDA00150EC4 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F48CF60024A969B5002AD214 /* en */,
 				F45A2D5725EC50960007D50E /* fr */,
+				A57966C5265DAEF700F1492C /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -2299,8 +2300,8 @@
 		F4D7F15D25F04A620024E9A5 /* CUISymbolsFilesLibraryViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4D7F15C25F04A620024E9A5 /* en */,
 				F4D7F15E25F04A630024E9A5 /* fr */,
+				A57966B4265DAEF500F1492C /* Base */,
 			);
 			name = CUISymbolsFilesLibraryViewController.xib;
 			sourceTree = "<group>";
@@ -2308,8 +2309,8 @@
 		F4D7F16125F04A9D0024E9A5 /* CUIPreferencePaneSymbolicationViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4D7F16025F04A9D0024E9A5 /* en */,
 				F4D7F16225F04A9E0024E9A5 /* fr */,
+				A57966B5265DAEF500F1492C /* Base */,
 			);
 			name = CUIPreferencePaneSymbolicationViewController.xib;
 			sourceTree = "<group>";
@@ -2340,6 +2341,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2349,6 +2351,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2365,6 +2368,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -2392,6 +2396,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2420,6 +2425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 49;
@@ -2440,6 +2446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_BOOL_CONVERSION = YES_ERROR;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;

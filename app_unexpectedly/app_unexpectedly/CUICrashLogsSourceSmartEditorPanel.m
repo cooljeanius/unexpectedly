@@ -311,6 +311,7 @@
 
 - (void)beginSheetModalForWindow:(NSWindow *)inWindow completionHandler:(void (^)(NSModalResponse response))handler
 {
+    //FIXME: -Wdeprecated-declarations:
     [NSApp beginSheet:self
        modalForWindow:inWindow
         modalDelegate:self
